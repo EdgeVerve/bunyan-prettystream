@@ -1,52 +1,12 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "bunyan-prettystream",
-        "scope": null,
-        "escapedName": "bunyan-prettystream",
-        "name": "bunyan-prettystream",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "D:\\work\\evgit\\bunyan-pretty"
-    ]
-  ],
-  "_from": "bunyan-prettystream@latest",
-  "_id": "bunyan-prettystream@3.1.4",
-  "_inCache": true,
-  "_location": "/bunyan-prettystream",
-  "_nodeVersion": "4.4.1",
-  "_npmUser": {},
-  "_npmVersion": "2.14.20",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "bunyan-prettystream",
-    "scope": null,
-    "escapedName": "bunyan-prettystream",
-    "name": "bunyan-prettystream",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "http://10.188.25.62:9009/bunyan-prettystream/-/bunyan-prettystream-3.1.4.tgz",
-  "_shasum": "2c84a734eb673e922ee5bc3853d68de271b11024",
-  "_shrinkwrap": null,
-  "_spec": "bunyan-prettystream",
-  "_where": "D:\\work\\evgit\\bunyan-pretty",
-  "author": {
-    "name": "Amar Suhail",
-    "email": "amar.suhail@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/mrrama/node-bunyan-prettystream/issues"
-  },
-  "dependencies": {},
+  "name": "bunyan-prettystream",
+  "version": "0.9.0",
   "description": "A stream implementation of the bunyan cli tool's pretty printing capabilities",
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "./lib/prettystream.js",
+  "dependencies": {},
   "devDependencies": {
     "blanket": "1.1.5",
     "coveralls": "2.0.13",
@@ -55,15 +15,6 @@
     "should": "1.2.2",
     "travis-cov": "0.2.4"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "2c84a734eb673e922ee5bc3853d68de271b11024",
-    "tarball": "http://10.188.25.62:9009/bunyan-prettystream/-/bunyan-prettystream-3.1.4.tgz"
-  },
-  "engines": [
-    "node >=0.8.0"
-  ],
-  "homepage": "https://github.com/mrrama/node-bunyan-prettystream#readme",
   "keywords": [
     "log",
     "logging",
@@ -72,23 +23,12 @@
     "development",
     "stream"
   ],
-  "main": "./lib/prettystream.js",
-  "maintainers": [
-    {
-      "name": "amar.suhail",
-      "email": "amar.suhail@gmail.com"
-    }
-  ],
-  "name": "bunyan-prettystream",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "readmeFilename": "readme.md",
+  "homepage": "https://github.com/edgeverve/bunyan-prettystream#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrrama/node-bunyan-prettystream.git"
+    "url": "git://github.com/edgeverve/bunyan-prettystream.git"
   },
-  "scripts": {
-    "test": "make test"
-  },
-  "version": "3.1.4"
+  "bugs": {
+    "url": "https://github.com/edgeverve/bunyan-prettystream/issues"
+  }
 }
